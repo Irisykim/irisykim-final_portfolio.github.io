@@ -1,0 +1,149 @@
+ /* Carousel image sizes */
+        #hobbyCarousel .carousel-item img {
+            width: 100%; /* responsive width */
+            height: 500px; /* keep the height fixed height */
+            object-fit:cover; /* don't want the image to be distorted */
+            border-radius: 30px;
+        }
+
+.text-left {
+   text-align: left !important;
+}
+
+
+ h2 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 4.5rem;
+    text-align:left;
+ }
+
+ h3 {
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-style: oblique;
+ }
+ h4{
+   font-size: larger;
+ }
+ .navbar-brand{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:2.5rem;
+    font-weight: bold;
+    color:rgb(85, 128, 238);
+
+
+    
+ }
+
+ .highlighted-word{
+    font-style: italic;
+    background-color:rgb(125, 181, 238);
+ }
+
+/*Bar options*/
+ .nav-link{
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+ }
+.nav-item{
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Location-word{
+   font-style: italic;
+   font-size: smaller;
+}
+
+/* portfolio.css */
+
+/* Add border styles on hover for the navigation items */
+.navbar-nav .nav-item .nav-link:hover {
+    border: 2px solid rgb(85, 128, 238); /* Change the color as needed */
+    border-radius: 8px; /* Add rounded corners if desired */
+    padding: 3px; /* Add padding for spacing */
+}
+
+/* Add styles to the link text when hovered */
+.navbar-nav .nav-item .nav-link:hover{
+    color:rgb(85, 128, 238);
+}
+
+
+
+.dropdown-menu{
+   color:rgb(201, 227, 247);
+}
+
+body {
+   background-color: rgb(255, 255, 255); /* Initial background color */
+   transition: background-color 0.5s ease; /* Smooth transition */
+}
+
+.dark-gradient {
+   background: linear-gradient(to bottom, rgb(255, 255, 255) 0%,rgba(63, 164, 240, 0.638) 100%);
+}
+
+
+.image-container {
+   position: relative;
+   overflow: hidden;
+}
+
+.pop-out-image {
+   transition: transform 0.3s ease-in-out;
+}
+
+.pop-out-image:hover {
+   transform: scale(1.1);
+}
+
+.pop-out-image:hover + .image-description {
+   opacity: 1;
+}
+
+
+
+
+
+body {
+   background-color: #fafafa;
+   font-family: 'Arial', sans-serif;
+}
+
+.notebook-paper {
+   background-color: #fff;
+   width: 60%;
+   margin: 20px auto;
+   padding: 20px;
+   border: 1px solid #ccc;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   position: relative;
+}
+
+.line {
+   border-top: 1px solid #ccc;
+   margin: 10px 0;
+   padding-top: 10px;
+   position: relative;
+}
+
+.text {
+   position: relative;
+   z-index: 1;
+   flex-grow: 1;
+}
+
+.line .fa-sharp.fa-solid.fa-square-check:hover{
+      color:blue;
+      font-size: 20px;
+      margin-left: auto !important;
+}
+
+.text:hover {
+   transform: scale(1.1); /* Increasing the scale on hover */
+}
+
+.fa-envelope:hover {
+   font-size: 30px;
+   transform: scale(1.1); /* Increasing the scale on hover */
+   color:rgb(85, 128, 238);
+}

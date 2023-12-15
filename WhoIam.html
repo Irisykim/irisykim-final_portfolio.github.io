@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iris Kim Portfolio </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="https://kit.fontawesome.com/dfa88253e1.js" crossorigin="anonymous"></script>
+
+
+    <style>
+        body {
+            background-color:rgb(255, 255, 255);
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="index.html">IK</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+              <a class="nav-link" href="Resume_IrisKim.pdf" target="_blank">Resume</a>
+          </li>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  About Me
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="WhoIam.html" target="_blank"> * Who I am</a>
+                  <a class="dropdown-item" href="Dental.html" target="_blank"> * Dental Experience</a>
+                  <a class="dropdown-item" href="Photos.html" target="_blank"> * My Photo Gallery</a>
+              </div>
+          <li class="nav-link">
+            <a class="nav-link" href="mailto: iykim@ucsd.edu"><i class="fa-solid fa-envelope"></i></a>
+          </li>    
+      
+          </li>
+      </ul>
+  </div>
+</nav>
+
+<h2 class=text-center> About Me</h2>
+<h4 class= text-center>
+  Hello! I'm a passionate 4th-year student at UC San Diego, immersed in the fascinating world of Human Biology. From a young age, my love for crafting and creating extended to various forms of art, including paintings, culinary delights, and intricate crafts. Little did I know that this passion would evolve into a deep-seated interest in the craftsmanship of dental health.
+  <br>
+  <br>
+  Teeth, to me, are works of art—precise, intricate, and fundamental to our well-being.
+  <br>
+  <br>
+  My journey has been enriched by a love for exploration and travel, allowing me to witness the diversity of our world. It's during these experiences that I've come to appreciate the importance of envisioning dental care on a global scale. Basic oral healthcare has the power to transform lives, even in the most distant corners of the world.
+  <br>
+  <br>
+  As I prepare to embark on the journey to dental school, my goal is to merge the art and practice of dentistry into a powerful force for outreach. I believe in the potential of dentistry to make a positive impact on the lives of others globally. Together, let's work towards a new future for dentistry—one that reaches far beyond clinical walls and creates meaningful change for people around the world. </h4>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+      window.addEventListener("scroll", function() {
+          var scrollPosition = window.scrollY;
+          var body = document.body;
+
+          // Adjust the value (e.g., 200) to control when the gradient starts
+          if (scrollPosition > 200) {
+              body.classList.add("dark-gradient");
+          } else {
+              body.classList.remove("dark-gradient");
+          }
+      });
+  });
+</script>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.5/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

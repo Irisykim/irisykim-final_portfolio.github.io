@@ -1,0 +1,140 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iris Kim Portfolio </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="https://kit.fontawesome.com/dfa88253e1.js" crossorigin="anonymous"></script>
+
+
+
+
+    <style>
+        body {
+            background-color:rgb(255, 255, 255);
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">IK</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="Resume_IrisKim.pdf" target="_blank">Resume</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    About Me
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="WhoIam.html" target="_blank"> * Who I am</a>
+                    <a class="dropdown-item" href="Dental.html" target="_blank"> * Dental Experience</a>
+                    <a class="dropdown-item" href="Photos.html" target="_blank"> * My Photo Gallery</a>
+                </div>
+            <li class="nav-link">
+                <a class="nav-link" href="mailto: iykim@ucsd.edu"><i class="fa-solid fa-envelope"></i></a>
+            </li>    
+        
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!--- Section about Qualification-->
+<br>
+<br>
+<br>
+<h2 class="text-center"><Span class=" highlighted-word">Dental Qualifications</Span> </h2>
+<div class="notebook-paper">
+    <div class="line">
+        <div class="text"> Dental X-Ray Certified</div>
+        <i class="fa-sharp fa-solid fa-square-check"></i>
+    </div>
+    <div class="line">
+        <div class="text">Sterilization Certified</div>
+        <i class="fa-sharp fa-solid fa-square-check"></i>
+    </div>
+    <div class="line">
+        <div class="text">Chairside Assiting Certified</div>
+        <i class="fa-sharp fa-solid fa-square-check"></i>
+    </div>
+    <div class="line">
+        <div class="text">Dental Impressions Certified</div>
+        <i class="fa-sharp fa-solid fa-square-check"></i>
+    </div>
+</div>
+
+<!--- Section about Dental Offices-->
+<br>
+<br>
+<h2 class="text-center"><Span class=" highlighted-word">Previous Dental Work</Span> </h2>
+<div class="notebook-paper">
+    <div class="line">
+        <div class="text" style=font-style:italic> Newhall Dental Fine Arts</div>
+        <h4>Dental Assistant Intern</h4>
+        </div>
+    <div class="line">
+        <div class="text" style=font-style:italic> Mendoza-Villat Carolina E DDS</div>
+        <h4>Dental Assistant</h4>
+    </div>
+</div>
+
+<!--- Section about Dental Missions-->
+<br>
+<br>
+<h2 class="text-center"><Span class=" highlighted-word">Overseas Dental Experience</Span> </h2>
+<div class="notebook-paper">
+    <div class="line">
+        <div class="text" style=font-style:italic>Where did I go?</div>
+        <h4> <i class="fa-solid fa-location-dot"> Turkiye </i></h4>
+        </div>
+    <div class="line">
+        <div class="text" style=font-style:italic> What was our mission?</div>
+        <h4>Our mission goal was to provide dental care for Afghan refugees with no access to healthcare due to refugee crisis.
+        </h4>
+    </div>
+    <div class="line">
+        <div class="text" style=font-style:italic> What did we do?</div>
+        <h4>We offered a range of dental services, including cleanings, extractions, and composite crowns.
+        </h4>
+    </div>
+    <div class="line">
+        <div class="text" style=font-style:italic> How did I help?</div>
+        <h4>I was able to chairside exist with instruments, water and air suctioning, sterilization, and patient care/follow up.
+        </h4>
+    </div>
+    <div class="line">
+        <div class="text" style=font-style:italic> What did I love the most?</div>
+        <h4>I sincerely loved developing friendships with the local refugees. Alhtough we are from different backgrounds and cultures, there was so much joy to become their friend through dental care. 
+        </h4>
+    </div>
+</div>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        window.addEventListener("scroll", function() {
+            var scrollPosition = window.scrollY;
+            var body = document.body;
+
+            // Adjust the value (e.g., 200) to control when the gradient starts
+            if (scrollPosition > 200) {
+                body.classList.add("dark-gradient");
+            } else {
+                body.classList.remove("dark-gradient");
+            }
+        });
+    });
+</script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.5/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

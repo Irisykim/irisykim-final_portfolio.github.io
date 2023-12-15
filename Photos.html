@@ -1,0 +1,147 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iris Kim Portfolio </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="https://kit.fontawesome.com/dfa88253e1.js" crossorigin="anonymous"></script>
+
+    <style>
+        body {
+            background-color:rgb(240, 236, 231);
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">IK</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="Resume_IrisKim.pdf" target="_blank">Resume</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    About Me
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="*"> * Who I am</a>
+                    <a class="dropdown-item" href="Dental.html" target="_blank"> * Dental Experience</a>                    
+                    <a class="dropdown-item" href="#"> * My Photo Gallery</a>
+                </div>
+            <li class="nav-link">
+                <a class="nav-link" href="mailto: iykim@ucsd.edu"><i class="fa-solid fa-envelope"></i></a>
+            </li>    
+        
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+
+<!-- Section 3: Photos -->
+<section id="Photos" class="container my-5">
+  <h2 class="text-center">Welcome to my <span class="highlighted-word">photo gallery</span></h2>
+  <h4 class="text-center" style="font-style:italic" > Collection of my travels and bits of the world I've been able to witness</h4>
+  <!-- Grid for Pictures -->
+  <div class="row">
+      <div class="col-md-6 mb-3">
+          <!-- Picture 1 -->
+          <img src="images/MountArarat1.JPG" class="img-fluid pop-out-image" alt="Mount Ararat from up close">
+          <div class="image-description">Mount Ararat from up close</div>
+      </div>
+      <div class="col-md-6 mb-3">
+          <!-- Picture 2 -->
+          <img src="images/MountArart2.JPG" class="img-fluid pop-out-image" alt="Mount Ararat from the city">
+          <div class="image-description">Mount Ararat from the city views</div>
+
+      </div>
+  </div>
+  <div class="row">
+      <div class="col-md-6 mb-3">
+          <!-- Picture 3 -->
+          <img src="images/Sakartvelo.JPG" class="img-fluid pop-out-image" alt="Description for photo 3">
+          <div class="image-description">Sakartvelo (Georgia), Endless hills and valleys </div>
+
+      </div>
+      <div class="col-md-6 mb-3">
+          <!-- Picture 4 -->
+          <img src="images/Savartvelo2.JPG" class="img-fluid pop-out-image" alt="Description for photo 4">
+          <div class="image-description">Sakartvelo (Georgia), Passing towns and vilages</div>
+
+      </div>
+  </div>
+  <div class="row">
+      <div class="col-md-6 mb-3">
+          <!-- Picture 5 -->
+          <img src="images/Sakartvelo3.JPG" class="img-fluid pop-out-image" alt="Description for photo 5">
+          <div class="image-description">Sakartvelo (Georgia), Lush Mountains</div>
+
+      </div>
+      <div class="col-md-6 mb-3">
+          <!-- Picture 6 -->
+          <img src="images/Sakartvelo4.JPG" class="img-fluid pop-out-image" alt="Description for photo 6">
+          <div class="image-description"> Sakartvelo (Georgia), Pebble Beach</div>
+
+      </div>
+  </div>
+  <div class="row">
+      <div class="col-md-6 mb-3">
+          <!-- Picture 7 -->
+          <img src="images/CornField.JPG" class="img-fluid pop-out-image" alt="Description for photo 7">
+          <div class="image-description">Sakartvelo, (Georgia), A corn field or the backyard garden?</div>
+
+        </div>
+        <div class="col-md-6 mb-3">
+          <!-- Picture 8 -->
+          <img src="images/CornField2.JPG" class="img-fluid pop-out-image" alt="Description for photo 8">
+          <div class="image-description">Girl in backyard garden</div>
+
+      </div> 
+  </div>
+<div class="row">
+    <div class="col-md-6 mb-3">
+        <!-- Picture 9 -->
+        <img src="images/Pomegranate.JPG" class="img-fluid" alt="Description for photo 9">
+        <div class="image-description">Fresh handpicked pomegranates</div>
+
+        </div>
+        <div class="col-md-6 mb-3">
+            <!-- Picture 10 -->
+            <img src="images/SummerField.JPG" class="img-fluid" alt="Description for photo 10">
+            <div class="image-description">Summer fields of Turkiye</div>
+        </div>
+    </div>
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            window.addEventListener("scroll", function() {
+                var scrollPosition = window.scrollY;
+                var body = document.body;
+    
+                // Adjust the value (e.g., 200) to control when the gradient starts
+                if (scrollPosition > 200) {
+                    body.classList.add("dark-gradient");
+                } else {
+                    body.classList.remove("dark-gradient");
+                }
+            });
+        });
+    </script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.5/dist/umd/popper.min.js"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+ </body>
+</html>
+          
+          
+          
